@@ -5,65 +5,48 @@
 	<meta charset="utf-8" />
 	<link rel="icon" href="./favicon.png" />
 	<meta name="viewport" content="width=device-width" />
-
-	<link href="./_app/immutable/assets/0.0f64c0a3.css" rel="stylesheet">
-	<link href="./_app/immutable/assets/styles.c6cd5241.css" rel="stylesheet">
-	<link href="./_app/immutable/assets/2.46fa93a0.css" rel="stylesheet">
-	<link rel="modulepreload" href="./_app/immutable/entry/start.f4fc68be.js">
-	<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.e108d1fd.js">
-	<link rel="modulepreload" href="./_app/immutable/chunks/singletons.4d167f23.js">
-	<link rel="modulepreload" href="./_app/immutable/chunks/paths.12010734.js">
-	<link rel="modulepreload" href="./_app/immutable/entry/app.2cc9cf0f.js">
-	<link rel="modulepreload" href="./_app/immutable/chunks/index.bad58c3a.js">
-	<link rel="modulepreload" href="./_app/immutable/nodes/0.f16cd1e6.js">
-	<link rel="modulepreload" href="./_app/immutable/nodes/2.7c3ae75a.js">
-	<title>Home</title><!-- HEAD_svelte-1vabb4t_START -->
-	<meta name="description" content="Wspolmagazyn website"><!-- HEAD_svelte-1vabb4t_END -->
+	
+		<link href="./_app/immutable/assets/0.0f64c0a3.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/styles.c6cd5241.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/2.46fa93a0.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.427cb69e.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.e108d1fd.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.16077f6f.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/paths.3a4fe740.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.f151c0a9.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.bad58c3a.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.70d74a74.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.7c3ae75a.js"><title>Home</title><!-- HEAD_svelte-1vabb4t_START --><meta name="description" content="Wspolmagazyn website"><!-- HEAD_svelte-1vabb4t_END -->
 </head>
 
 <body data-sveltekit-preload-data="hover">
-	<div style="display: contents">
-		<div class="app svelte-qryb3g">
-			<div class="top-bar-container main-font svelte-1d94ibp" data-svelte-h="svelte-15t4sy8">
-				<h1 class="svelte-1d94ibp">współ magazyn</h1>
-				<nav class="main-menu svelte-1d94ibp"><a href="/" class="svelte-1d94ibp">Strona główna</a> <a
-						href="/texts" class="svelte-1d94ibp">Teksty</a> <a href="/about" class="svelte-1d94ibp">O
-						nas</a></nav>
-			</div>
-			<div class="svelte-gqzz2v" data-svelte-h="svelte-57mmsi">
-				<h1>Main page</h1>
-				<section class="main-font svelte-gqzz2v">
-					<h2>Główna strona</h2>
-					<p>elo elo elo eldoka</p>
-				</section>
-			</div>
-		</div>
+	<div style="display: contents">  <div class="app svelte-qryb3g"><div class="top-bar-container main-font svelte-1d94ibp" data-svelte-h="svelte-15t4sy8"><h1 class="svelte-1d94ibp">współ magazyn</h1> <nav class="main-menu svelte-1d94ibp"><a href="/" class="svelte-1d94ibp">Strona główna</a> <a href="/texts" class="svelte-1d94ibp">Teksty</a> <a href="/about" class="svelte-1d94ibp">O nas</a></nav> </div>  <div class="svelte-gqzz2v" data-svelte-h="svelte-57mmsi"><h1>Main page</h1> <section class="main-font svelte-gqzz2v"><h2>Główna strona</h2> <p>elo elo elo eldoka</p></section> </div> </div> 
+			
+			<script>
+				{
+					__sveltekit_g51q1e = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
 
-		<script>
-			{
-				__sveltekit_15eufvg = {
-					base: new URL(".", location).pathname.slice(0, -1),
-					env: {}
-				};
+					const element = document.currentScript.parentElement;
 
-				const element = document.currentScript.parentElement;
+					const data = [null,null];
 
-				const data = [null, null];
-
-				Promise.all([
-					import("./_app/immutable/entry/start.f4fc68be.js"),
-					import("./_app/immutable/entry/app.2cc9cf0f.js")
-				]).then(([kit, app]) => {
-					kit.start(app, element, {
-						node_ids: [0, 2],
-						data,
-						form: null,
-						error: null
+					Promise.all([
+						import("./_app/immutable/entry/start.427cb69e.js"),
+						import("./_app/immutable/entry/app.f151c0a9.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
 					});
-				});
-			}
-		</script>
-	</div>
+				}
+			</script>
+		</div>
 </body>
 
 </html>
